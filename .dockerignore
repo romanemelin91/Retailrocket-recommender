@@ -1,0 +1,9 @@
+*.ipynb
+.ipynb_checkpoints/
+data/
+results/
+tests/
+__pycache__/
+*.pyc
+*.tar
+.git

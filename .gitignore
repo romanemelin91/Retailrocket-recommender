@@ -1,0 +1,13 @@
+﻿# данные и крупные артефакты (создаются при запуске, см. README)
+data/*
+!data/README.txt
+artifacts/*
+!artifacts/.gitkeep
+*.tar
+
+# окружения и кэши
+venv*/
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
