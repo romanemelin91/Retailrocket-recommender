@@ -105,6 +105,8 @@ docker save -o recsys-service_1.0.tar recsys-service:1.0
 docker load -i recsys-service_1.0.tar
 docker run --rm -p 8000:8000 recsys-service:1.0
 ```
+- docker pull romanemelin91/recsys-service:1.0
+- docker run --rm -p 8000:8000 romanemelin91/recsys-service:1.0
 
 **Типичные проблемы**
 
